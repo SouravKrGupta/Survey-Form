@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form using HTML and CSS</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div class="heading">
+        <h1 id="head">Survey Form</h1>
+        <h2 id="subheading">Thank you for taking the time to filling the form.</h2>
+    </div>
+    <form method="post" autocomplete="off" name="google-sheet">
+        <div id="content1">
+            <label>Name</label><br><br>
+            <input type="name" name="name" placeholder="Enter your name" class="box"><br><br>
+            <label>Email</label><br><br>
+            <input type="email" name="email" placeholder="Enter your email" class="box"><br><br>
+            <label>Phone Number</label><br><br>
+            <input type="phone" name="phone" placeholder="Enter your moblie number" class="box"><br><br>
+            <label>Age</label><br><br>
+            <input type="date" name="age" placeholder="Enter your age" class="box"><br><br>
+       <label>Which option best describes your current role ?</label><br><br>
+      
+        <div id="option1">
+            <select>
+                <option name="select Your Role">Select Your Role</option>
+                <option value="Student">Student</option>
+                <option value="Full Time Job">Full Time Job</option>
+                <option value="Part Time Job">Part Time Job</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+   
+    <br>
+    <label id="head1">Would you recommend Internship to a friend?</label><br><br>
+       <input type="radio" name="radio" class="larger">&nbsp;&nbsp;&nbsp;Definitely<br><br>
+       <input type="radio" name="radio" class="larger">&nbsp;&nbsp;&nbsp;Maybe<br><br>
+       <input type="radio" name="radio" class="larger">&nbsp;&nbsp;&nbsp;Not Sure<br><br>
+   
+   <lable>What will be your time duration of your internship? </lable><br>
+   <div id="option2">
+    <select>
+        <option name="select Your Role">Select Your Role</option>
+        <option value="6 months">6 months</option>
+        <option value="4 months">4 months</option>
+        <option value="3 months">3 months</option>
+        <option value="2 months">2 months</option>
+    </select>
+   </div>
+   <br><br>
+   <label id="head2">Please select your skill from below list?</label><br>
+   <div id="content2">
+    <input type="checkbox"name="checkbox" class="larger"><label>&nbsp;&nbsp;&nbsp;HTML</label><br><br>
+    <input type="checkbox"name="checkbox" class="larger"><label>&nbsp;&nbsp;&nbsp;CSS</label><br><br>
+    <input type="checkbox"name="checkbox" class="larger"><label>&nbsp;&nbsp;&nbsp;JavaScript</label><br><br>
+    <input type="checkbox"name="checkbox" class="larger"><label>&nbsp;&nbsp;&nbsp;Bootstrap</label><br><br>
+    <input type="checkbox"name="checkbox" class="larger"><label>&nbsp;&nbsp;&nbsp;Node js</label><br><br>
+    <input type="checkbox"name="checkbox" class="larger"><label>&nbsp;&nbsp;&nbsp;React js</label><br><br>
+    <input type="checkbox"name="checkbox" class="larger"><label>&nbsp;&nbsp;&nbsp;Express js</label><br><br>
+    <input type="checkbox"name="checkbox" class="larger"><label>&nbsp;&nbsp;&nbsp;MongoDB</label><br><br>
+    <input type="checkbox"name="checkbox" class="larger"><label>&nbsp;&nbsp;&nbsp;ASP.NET</label><br><br>
+    <input type="checkbox"name="checkbox" class="larger"><label>&nbsp;&nbsp;&nbsp;GitHub</label><br><br>
+ 
+   <label id="head2">Any Suggestion or Query!!!!!</label><br><br><br>
+   <textarea placeholder="Enter your query.."></textarea><br>
+   <button type="submit" name="submit" ><h3>Submit</h3></button>
+</div>
+</div>
+ </form>
+
+</body>
+</html>
